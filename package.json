@@ -2,11 +2,15 @@
   "name": "projectone",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Roshan",
   "license": "ISC",
-  "description": ""
+  "description": "its my first backend project that will be fully functional",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
